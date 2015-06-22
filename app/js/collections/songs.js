@@ -1,3 +1,6 @@
-Sfotipy.Collections.Songs = Backbone.Collection.extend({
-  model: Sfotipy.Models.Song
+var Backbone = require('backbone');
+var Song = require('../models/song.js');
+
+module.exports = Backbone.Collection.extend({
+  model : Song
 });
